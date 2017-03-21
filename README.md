@@ -4,7 +4,7 @@ The places in the Pi number where all dates (1902-2020) appear.
 The language of scripts is Bash. The scripts worked during 5 days  
 mostly in night.
 
-Thanks to the site http://www.subidiom.com/pi/  
+Thank to the site http://www.subidiom.com/pi/  
 we can check occurences of any sequence of digits in  
 the initial 2 Billion part of the famous `Pi` number.  
 
