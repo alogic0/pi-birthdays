@@ -18,7 +18,7 @@ american 'mmddYYYY').
 ## Explanation of work 
 
 To generate not duplicated dates use the `dates-gen.sh`. It's based  
-on the ability of the `date` to calculate relative dates 
+on the ability of the `date` to calculate relative dates  
 (for example, try ```date -d '1902-01-01 +40 days'```). The `date-u.txt`  
 is the result.
 
