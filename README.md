@@ -1,7 +1,7 @@
 # pi-birthdays
 The places in the Pi number where all dates (1902-2020) appear.
 
-The language of scripts is Bash. They worked during 5 days  
+The language of scripts is Bash. The scripts worked during 5 days  
 mostly in night.
 
 Thanks to the site http://www.subidiom.com/pi/  
@@ -15,11 +15,11 @@ Its size is 2.2M. There is 109K of lines because all dates are
 checked in 3 variants of writings ('YYYYmmdd', 'ddmmYYYY', and  
 american 'mmddYYYY').
 
-##Explanation of work 
+## Explanation of work 
 
 To generate not duplicated dates use the `dates-gen.sh`. It's based  
-on the ability of the `date` to calculate relative dates.
-For example, try ```date -d '1902-01-01 +40 days'```. The `date-u.txt`  
+on the ability of the `date` to calculate relative dates 
+(for example, try ```date -d '1902-01-01 +40 days'```). The `date-u.txt`  
 is the result.
 
 Then `run.sh`. It takes dates from the `date-u.txt`, finds it appearance  
