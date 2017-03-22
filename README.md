@@ -1,7 +1,7 @@
 # pi-birthdays
 The places in the Pi number where all dates (1902-2020) appear.
 
-The language of scripts is Bash. The scripts worked during 5 days  
+It's written in Bash. The scripts worked during 5 days  
 mostly in night.
 
 Thank to the site http://www.subidiom.com/pi/  
@@ -22,7 +22,8 @@ on the ability of the `date` to calculate relative dates
 (for example, try ```date -d '1902-01-01 +40 days'```). The `date-u.txt`  
 is the result.
 
-Then `run.sh`. It takes dates from the `date-u.txt`, finds it appearance  
-in Pi and put records to the `bdays.txt`. Interrupt it sometimes and run  
-`fix.sh`. It checks missings of dates inside `bdays.txt` and corrects it.  
-I used the property of `diff -e` to generate ed-script for adding lines.
+Then `run.sh`. It takes dates from the `date-u.txt`, finds their places  
+in Pi and puts the records to the `bdays.txt`. Interrupt it sometimes  
+and run `fix.sh`. It checks missings of dates inside `bdays.txt` and  
+corrects it.  
+I've used the property of `diff -e` to generate ed-script for adding lines.
